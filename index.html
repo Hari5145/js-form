@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Simple form</title>
+	</head>
+	<body>
+		<div class="container-fluid col-md-6">
+			<h2 id="header">Feedback form :</h2>
+			<p id="header-info">Kindly provide your valuable feedback to us...</p>
+			<div class="error"></div>
+			<form id="user-form" class="form-control">
+				<form>
+					<div class="row">
+						<div class="col">
+							<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+								>First Name:</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="text-first"
+								placeholder="Enter First Name"
+							/>
+						</div>
+
+						<div class="col">
+							<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+								>Last Name:</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="text-second"
+								placeholder="Enter Last Name"
+							/>
+						</div>
+					</div>
+				</form>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Email ID:</label
+					>
+					<input
+						type="email"
+						class="form-control"
+						id="email"
+						placeholder="Enter email"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Address:</label
+					>
+					<textarea
+						name="comment"
+						id="address-txt"
+						cols="30"
+						rows="5"
+						class="form-control"
+						placeholder="Type your complete address..."
+					></textarea>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Mobile No:</label
+					>
+					<input
+						type="number"
+						class="form-control"
+						id="mobileNum"
+						placeholder="Enter your contact number"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Father Name:</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						id="fatherName"
+						placeholder="Type your Father Name"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Mother Name:</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						id="motherName"
+						placeholder="Type your Mother Name"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>PinCode:</label
+					>
+					<input
+						type="number"
+						class="form-control"
+						id="pinCodeNum"
+						placeholder="Enter your PinCode"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputDefault" class="col-sm-2 mt-2 control-label"
+						>Country:</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						id="countryName"
+						placeholder="Type your Country Name"
+					/>
+				</div>
+
+				<div class="form-check mt-2">
+					<input type="checkbox" class="form-check-input" id="checkbox" />
+					<label for="checkbox" class="form-check-label">Check me out</label>
+				</div>
+
+				<div>
+					<button type="submit" class="btn btn-info" id="button">Submit</button>
+				</div>
+			</form>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

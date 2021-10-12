@@ -1,0 +1,29 @@
+* {
+	margin: auto;
+	padding: 1px;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 300%;
+}
+
+#header-info {
+	font-style: italic;
+}
+
+.form-control {
+	font-stretch: expanded;
+}
+
+.form-control:focus {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button:hover {
+	background: yellow;
+	transition: ease;
+	font-weight: bold;
+}
